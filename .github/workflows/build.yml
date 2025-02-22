@@ -1,0 +1,23 @@
+name: Build
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    name: Build
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build
+        run: make release
+
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          path: |
+            *.vsix
