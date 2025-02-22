@@ -11,7 +11,7 @@ defs:
 		--branch master \
 		--single-branch \
 		--filter=tree:0 \
-		'https://github.com/file-icons/atom.git' $@
+		'https://github.com/hyoban/file-icons-atom.git' $@
 
 node_modules:
 	npm install --legacy-peer-deps .

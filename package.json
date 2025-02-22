@@ -6,11 +6,13 @@
 	"publisher": "file-icons",
 	"license": "MIT",
 	"author": "Daniel Brooker <dan@nocturnalcode.com>",
-	"maintainers": [{
-		"name": "John Gardner",
-		"email": "gardnerjohng@gmail.com",
-		"url": "https://github.com/Alhadis"
-	}],
+	"maintainers": [
+		{
+			"name": "John Gardner",
+			"email": "gardnerjohng@gmail.com",
+			"url": "https://github.com/Alhadis"
+		}
+	],
 	"engines": {
 		"node": ">=15",
 		"vscode": "^1.5.0"
@@ -38,15 +40,18 @@
 		"theme"
 	],
 	"contributes": {
-		"iconThemes": [{
-			"id": "file-icons",
-			"label": "File Icons",
-			"path": "./icons/file-icons-icon-theme.json"
-		},{
-			"id": "file-icons-colourless",
-			"label": "File Icons (Colourless)",
-			"path": "./icons/file-icons-colourless-icon-theme.json"
-		}]
+		"iconThemes": [
+			{
+				"id": "file-icons",
+				"label": "File Icons",
+				"path": "./icons/file-icons-icon-theme.json"
+			},
+			{
+				"id": "file-icons-colourless",
+				"label": "File Icons (Colourless)",
+				"path": "./icons/file-icons-colourless-icon-theme.json"
+			}
+		]
 	},
 	"scripts": {
 		"import": "make update",
@@ -54,13 +59,23 @@
 	},
 	"eslintConfig": {
 		"extends": "@alhadis",
-		"overrides": [{
-			"files": ["scripts/*.mjs"],
-			"rules": {"no-irregular-whitespace": 0}
-		}],
-		"rules": {"camelcase": 0}
+		"overrides": [
+			{
+				"files": [
+					"scripts/*.mjs"
+				],
+				"rules": {
+					"no-irregular-whitespace": 0
+				}
+			}
+		],
+		"rules": {
+			"camelcase": 0
+		}
 	},
-	"eslintIgnore": ["defs"],
+	"eslintIgnore": [
+		"defs"
+	],
 	"devDependencies": {
 		"@alhadis/eslint-config": "^2.3.4",
 		"@babel/eslint-parser": "^7.15.0",
@@ -69,5 +84,6 @@
 		"eslint-plugin-import": "^2.24.2",
 		"genex": "v1.1.0",
 		"less": "^2.7.3"
-	}
+	},
+	"packageManager": "pnpm@9.15.5+sha512.845196026aab1cc3f098a0474b64dfbab2afe7a1b4e91dd86895d8e4aa32a7a6d03049e2d0ad770bbe4de023a7122fb68c1a1d6e0d033c7076085f9d5d4800d4"
 }
