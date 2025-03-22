@@ -499,6 +499,11 @@
 			"fontId": "fi",
 			"fontSize": "107%"
 		},
+		"_biome": {
+			"fontCharacter": "\\27c1",
+			"fontId": "fi",
+			"fontSize": "107%"
+		},
 		"_bison": {
 			"fontCharacter": "\\1f402",
 			"fontId": "fi",
@@ -7548,6 +7553,7 @@
 		"binder-requirements.txt": "_binder",
 		"binder_requirements.txt": "_binder",
 		".bintray.json": "_bintray",
+		"biome.json": "_biome",
 		"birthtoken": "_database",
 		"bitbucket-pipelines.yaml": "_bitbucket",
 		"bitbucket-pipelines.yml": "_bitbucket",

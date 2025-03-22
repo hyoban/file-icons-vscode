@@ -1274,6 +1274,12 @@
 			"fontId": "fi",
 			"fontSize": "107%"
 		},
+		"_biome_medium-blue": {
+			"fontCharacter": "\\27c1",
+			"fontColor": "#6a9fb5",
+			"fontId": "fi",
+			"fontSize": "107%"
+		},
 		"_bison_dark-green": {
 			"fontCharacter": "\\1f402",
 			"fontColor": "#66783e",
@@ -14922,6 +14928,7 @@
 		"binder-requirements.txt": "_binder_medium-orange",
 		"binder_requirements.txt": "_binder_medium-orange",
 		".bintray.json": "_bintray_medium-green",
+		"biome.json": "_biome_medium-blue",
 		"birthtoken": "_database_medium-green",
 		"bitbucket-pipelines.yaml": "_bitbucket_medium-blue",
 		"bitbucket-pipelines.yml": "_bitbucket_medium-blue",
