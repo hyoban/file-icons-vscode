@@ -38,7 +38,7 @@ release: tmp
 	sed -e "s/%%VERSION%%/`cat version`/g" scripts/extension.xml > tmp/extension.vsixmanifest
 	mkdir tmp/extension
 	cp -r CHANGELOG.md LICENSE.md README.md icons package.json thumbnail.png tmp/extension
-	vsix="file-icons.file-icons-`cat version`.vsix"; \
+	vsix="hyoban.file-icons-continue`cat version`.vsix"; \
 	cd tmp && zip -r "$$vsix" *
 	mv tmp/*.vsix .
 	rm -rf version tmp
